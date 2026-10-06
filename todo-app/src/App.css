@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(135deg, #dff7e3, #d9f1ff);
+}
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-section > input {
+  width: 300px;
+  height: 30px;
+  font-size: 1.25rem;
+}
+
+.input-section > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font: 1.5rem;
+  background: linear-gradient(135deg, #ef4444, #dc2626, #991b1b);
+  color: white;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo {
+  width: 500px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff1e6, #ffe8e8);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  padding: 0px 5px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.actions>button{
+  background: linear-gradient(135deg, #ef4444, #dc2626, #991b1b);
+  color: white;
+  height: 30px;
+  width: 75px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
